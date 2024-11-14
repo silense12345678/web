@@ -1,0 +1,149 @@
+/* style.css */
+
+/* 基本重置 */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 背景图片样式 */
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://tse3-mm.cn.bing.net/th/id/OIP-C.xc5KsKdO2u9T5hBCpE0yCgHaEK?rs=1&pid=ImgDetMain'); /* 替换为您的背景图片地址 */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* 主要内容区域样式 */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 欢迎语样式 */
+.greeting {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.greeting h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.greeting p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+/* 暖心话样式 */
+.warm-words {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.warm-words h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* 问卷及分析样式 */
+.questionnaire {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.questionnaire h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* 联系我样式 */
+.contact h2 a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact h2 a:hover {
+    background-color: #0056b3;
+}
+
+/* 返回寝室和班级样式 */
+.back-to-dorm, .back-to-class {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back-to-dorm h2 a, .back-to-class h2 a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-dorm h2 a:hover, .back-to-class h2 a:hover {
+    background-color: #1e7e34;
+}
+
+/* 导航栏样式 */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+/* 返回主页链接样式 */
+.back-to-home {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-home:hover {
+    text-decoration: underline;
+}
