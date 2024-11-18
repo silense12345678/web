@@ -134,16 +134,13 @@ footer {
     font-size: 0.8em;
 }
 
-/* 返回主页链接样式 */
+
+
 .back-to-home {
     display: block;
     text-align: center;
     margin-top: 10px;
-    color: #007BFF;
+    color: #ff0062;
     text-decoration: none;
     font-weight: bold;
-}
-
-.back-to-home:hover {
-    text-decoration: underline;
 }
